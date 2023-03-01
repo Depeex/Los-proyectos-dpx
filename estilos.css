@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.Texto-contacto{
+    color: white;
+    background-color: black ;
+    text-decoration: none;   
+    border-radius: 30px; 
+}
+
+.Texto-contacto:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+nav {
+    width: 100px;
+    position: relative;
+    top: 25px;
+}
+.Caja-Contacto {
+    background-color: black;
+    width:10000px;
+}
+
+#logo {
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    bottom: 80px;
+    left: 450px;
+    
+    
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+ 
+
+#sec1 { 
+    height: 765px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center ;
+    background: rgb(82,76,170);
+    background: linear-gradient(34deg, rgba(82,76,170,1) 0%, rgba(170,170,236,1) 44%, rgba(255,255,255,1) 100%);
+    border-bottom: 0.5px solid black;
+    
+}
+#sec2 { 
+    height: 765px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center ;
+    background: rgb(82,76,170);
+    background: linear-gradient(144deg, rgba(82,76,170,1) 0%, rgba(170,170,236,1) 44%, rgba(255,255,255,1) 100%);
+    
+    
+    
+}
+#sec3 { 
+    height: 765px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center ;
+    background: rgb(16,14,45);
+    background: linear-gradient(15deg, rgba(16,14,45,1) 0%, rgba(170,170,236,1) 44%, rgba(255,255,255,1) 100%);
+    border-top: 0.5px solid black;
+    
+    
+    
+}
+
+.Boton1, .Boton2, .Boton3{
+    font-size: smaller;
+    display:inline-block;
+    padding: 7px 0;
+    color:black;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+    
+
+}
+
+#sec1 a {
+    position: relative;
+    bottom: 250px;
+}
+
+.Boton1:hover {
+    background-color: lightgray;
+}
+#sec2 a {
+    position: relative;
+    bottom: 250px;
+    left: 40px;
+}
+.Boton2:hover {
+    background-color: lightgray;
+}
+#sec3 a {
+    position: relative;
+    bottom: 250px;
+    right: 135px;
+    width: 160px;
+    height: 35px;
+}
+.Boton3:hover {
+    background-color: lightgray;
+}
+
+
+header {
+    text-align: center;
+    ;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+
+}
+.Header1 {
+    width: 650px;
+    height: 50px;
+    margin: 0px;
+    position:relative;
+    padding: 0px;
+    bottom: 50px;
+    box-shadow: 3px 10px   black;
+}
+.Header2 {
+    background-color: black;
+    color: white;
+    width: 350px;
+    font-size: 20px;
+    height: 60px;
+    margin: 0px;
+    position:relative;
+    padding: 0px;
+    bottom: 30px;
+    right: 50px;
+}
+
+.Header2 h1 {
+    position: relative;
+    top: 8px;
+
+}
+
+.Header3 {
+    width:210px;
+    height: 80px ;
+    position:relative;
+    bottom: 130px;
+    left: 600px;
+
+}
+.Header3 h1 {
+    position: relative;
+    top: 7px;
+}
+
+
+.Presentacion {
+    position: relative;
+    top: 7px;
+}
+
+
+#Content1, .Header3 {
+    margin: 0px;
+    padding: 0px;
+    background-color: white; 
+    border-radius: 30px;
+}
+#Content1 {
+    
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    right: 50px;
+    box-shadow: 50px 25px black;
+
+}
+
+#Content1 article {
+    width: 800px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    
+} 
+
+#Content1 ul {
+    position: relative;
+    top: -11px;
+    left: -40px;
+
+}
+
+.Sub-contenedores1,.Sub-contenedores2,.Sub-contenedores3 {
+    margin: 40px;
+    padding: 0px;
+    background-color: black; 
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 15px 25px  black;
+
+}
+
+.Sub-contenedores1 {
+    width:800px;
+    height: 125px;
+    position: relative;
+    right: 200px ;
+}
+.Sub-contenedores1 h2, ul, li {
+    position:relative;
+    left: 42px;
+    top: 10px;
+
+}
+.Sub-contenedores2 {
+    width:800px;
+    height: 125px;
+    position: relative;
+    right: 50px ;
+}
+.Sub-contenedores2 h2, ul, li {
+    position:relative;
+    left: 42px;
+    top: 10px;
+
+}
+.Sub-contenedores3 {
+    width:800px;
+    height: 125px;
+    position: relative;
+    left: 100px ;
+}
+.Sub-contenedores3 h2, ul, li {
+    position:relative;
+    left: 42px;
+    top: 10px;
+
+}
+
+
+video, iframe   {
+    padding: 15px;
+    width: 270px;
+    height: 150px;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 35px 65px  black;
+    position: relative;
+    left: 125px;
+
+}
+
+
+
+

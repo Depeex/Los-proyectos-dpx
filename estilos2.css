@@ -1,0 +1,241 @@
+body{
+    overflow-x: hidden;
+ }
+ .modal {
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    background-color: #111111bd;
+    display:flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+ }
+
+ .modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0vh);
+    --transition: transform .8s .8s;
+
+ }
+
+ .modal__container {
+    margin:auto;
+    width:90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: white;
+    border-radius:6px ;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition: transform .3s;
+    transition: var(--transition);
+
+ }
+
+ .modal__title {
+    font-size: 2.5rem ;
+    margin-bottom: 10px;
+ }
+.modal__img {
+    width: 90%;
+    max-width: 300px;
+}
+
+.modal__close {
+    text-decoration: none;
+    color: white;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal__close:hover {
+    color:#F26250;
+    background-color:white ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.Contenedordepagina2 {
+    height: 765px;
+    background: #2e2e2e; 
+    
+
+}
+
+Header{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    pointer-events: none;
+    background-color: black;
+    width: 2000px;
+    border-radius: 30px;
+    position: relative;
+    right: 230px;
+    margin-left: 0px
+}
+
+nav {
+    position: relative;
+    bottom: 14px;
+    left: 50px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 40px;
+    top: 3px;
+    
+}
+
+.Rectangulo {
+    width: 275px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    
+    
+}
+
+.Rectangulo:hover {
+    color: white;
+    background-color:rgb(82,76,170) ;
+}
+
+
+:root {
+    --Instagram: #ffb54d ;
+    --Twitter: #27aedd ;
+    --Youtube: #e73232 ;
+}
+
+.Contenedorderedes {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.Contenedorderedes ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.Contenedorderedes ul li a {
+    color: white;
+    display: block;
+    padding: 0 10px;
+    background-color: black;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0,.2);
+    transition: .2s;
+}
+
+.Contenedorderedes ul:hover a{
+    filter:blur(2px);
+}
+
+.Contenedorderedes ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px rgba(0,0,0,.4);
+    filter:none 
+}
+
+.Contenedorderedes ul li .Instagram:hover {
+    background-color: var(--Instagram);
+}
+.Contenedorderedes ul li .Twitter:hover {
+    background-color: var(--Twitter);
+}
+.Contenedorderedes ul li .Youtube:hover {
+    background-color: var(--Youtube);
+}
+
+.Contenedorderedes {
+    position: relative;
+    bottom: 10px;
+    
+}
+
+article {
+    background-color: white;
+    border-radius: 30px;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    bottom: 175px;
+    left:575px;
+}
+
+article h1 {
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+span {
+    color: rgb(82,76,170);
+    font-size: larger;
+    position: relative;
+    right: 10px
+}
+
+.Boton1 {
+    background-color: black;
+    width: 100px;
+    height:50px;
+    border: 1px solid;
+    border-radius: 15px;
+    position: relative;
+    bottom: 100px;
+    left: 695px    
+}
+
+.boton__vermas {
+    color: rgb(82,76,170);
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    left: 23px;
+    
+}
+
+.Boton1:hover {
+    color:rgb(82,76,170);
+    background-color: white;
+    
+
+}
